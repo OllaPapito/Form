@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form - Gradient Color Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Create Account</div>
+        <form action="#" id="form" class="b7validator" method="GET">
+            <div class="user-details">
+                <div class="input-box">
+                    <label class="details" for="fullname">Full Name</label>
+                    <input type="text" class="text" id="fullname" data-rules="required|min=2" placeholder="Enter your name">
+
+                </div>
+                <div class="input-box">
+                    <label class="details">Username</label>
+                    <input type="text" class="text" id="username" data-rules="required|min=2" placeholder="Enter your username">
+                </div>
+                <div class="input-box">
+                    <label class="details">Email</label>
+                    <input type="email" class="text" id="email" data-rules="required|email" placeholder="Enter your email">
+                </div>
+                <div class="input-box">
+                    <label class="details">Phone Number</label>
+                    <input type="text" class="text" id="phone" data-rules="required|min=11" placeholder="Enter your number">
+                </div>
+                <div class="input-box">
+                    <label class="details">Password</label>
+                    <input type="password" class="text" id="pass" data-rules="required|min=6" placeholder="Enter your password">
+                </div>
+                <div class="input-box">
+                    <label class="details">Confirm Password</label>
+                    <input type="password" class="text" id="pass2" data-rules="required|min=6" placeholder="Confirm your password">
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+            <div class="defined">
+                <h1>Dev. by CodingLab and improved by <a href="https://www.https://github.com/OllaPapito">Adrian Aguiar.</a></h1>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
